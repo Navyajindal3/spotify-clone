@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar flex-row">
+      <div class="left flex-row">
+        <img src="icons/logo.svg" alt="Spotify Logo" class="logo" />
+        <button class="home">
+          <img src="icons/home-icon.svg" alt="Home Icon" />
+        </button>
+        <div class="search-container flex-row">
+          <img src="icons/search-icon.svg" class="search-icon" />
+          <input
+            type="search"
+            placeholder="what do you want to play?"
+            class="search-bar"
+          />
+          <p style="color: gray; font-size: large">|</p>
+          <img src="icons/browse-icon.svg" class="browse-icon" />
+        </div>
+      </div>
+      <div class="right flex-row">
+        <div class="options flex-row">
+          <a href="#premium" class="premium">Premium</a>
+          <a href="#support" class="support">Support</a>
+          <a href="#download" class="download">Download</a>
+        </div>
+        <div class="separation"></div>
+        <div class="buttons flex-row">
+          <div class="install flex-row">
+            <img src="icons/install-icon.svg" alt="Install Icon" />
+            <a href="#install" class="install">Install App</a>
+          </div>
+          <button class="signup">Sign up</button>
+          <button class="login">Log in</button>
+        </div>
+      </div>
+    </div>
+    <div class="main flex-row">
+      <div class="main-left">
+        <div
+          class="flex-row"
+          style="
+            justify-content: space-between;
+            box-shadow: 0 5px 10px rgb(0, 0, 0);
+          "
+        >
+          <h4
+            style="
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              margin: 20px 30px;
+              font-weight: bolder;
+            "
+          >
+            Your Library
+          </h4>
+          <button class="add">
+            <img src="icons/add-icon.svg" alt="add Icon" />
+          </button>
+        </div>
+        <div class="scroll">
+          <div class="create">
+            <div class="bold-text">Create your first playlist</div>
+            <div class="thin-text">It's easy, we'll help you</div>
+            <button class="create-button">Create Playlist</button>
+          </div>
+          <div class="browse">
+            <div class="bold-text">Let's find some podcasts to follow</div>
+            <div class="thin-text">We'll keep you updated on new episodes</div>
+            <button class="browse-button">Browse Podcasts</button>
+          </div>
+        </div>
+        <div class="footer-left">
+          <div class="footer-left-options flex-row">
+            <a href="#legal" class="legal">Legal</a>
+            <a href="#safety" class="safety">Safety&privacy center</a>
+            <a href="#ads" class="ads">About ads</a>
+            <a href="#ccokies" class="cookies">Cookies</a>
+            <a href="#privacy" class="privacy">privacy policy</a>
+
+            <a href="#access" class="access">Accessebility</a>
+          </div>
+          <button class="english">
+            <img
+              src="icons/globe-icon.svg"
+              alt="Globe Icon"
+              class="globe-icon"
+              width="15px"
+            />
+            English
+          </button>
+        </div>
+      </div>
+
+      <div class="main-right">
+        <h2>Spotify Playlists</h2>
+        <div class="spotify-playlists flex-row">
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550"
+            />
+            <h4>Happy Hits!</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f000000029527413150cbd6d9b2a3785a"
+            />
+            <h4>Calming acoustic</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f00000002640aa944e9d545e4dff348c1"
+            />
+            <h4>Lofi-chill</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f00000002bce34b340f84f8685a266d95"
+            />
+            <h4>Christmas classics</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f00000002204335eb7d241ef0dbf5c5ad"
+            />
+            <h4>Viral hits!</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f00000002e89659088d512fa06923e8ef"
+            />
+            <h4>Trending Now India</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+            />
+            <h4>Top 50 - Global</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f000000027ab97440d3f8a52d5e733dbf"
+            />
+            <h4>1 AM feels hindi</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://seed-mix-image.spotifycdn.com/v6/img/desc/Soft/en/default"
+            />
+            <h4>Soft mix</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f000000027dd17ea36bc5d22dd3318ed2"
+            />
+            <h4>pov: you're in love</h4>
+            <p>By Spotify</p>
+          </div>
+          <div class="card-container">
+            <div class="play">
+              <img src="icons/play-icon.svg" alt="Play Icon" />
+            </div>
+            <img
+              src="https://i.scdn.co/image/ab67706f00000002e68a7817d01cc51d58bba6c8"
+            />
+            <h4>Chill station</h4>
+            <p>By Spotify</p>
+          </div>
+        </div>
+        <div class="now-playing flex-column">
+          <div class="top flex-row">
+            <img src="https://i.scdn.co/image/ab67706f0000000249a1ed33d2ca64e6a5d0e550" class="playlist-logo" width="100px">
+            <div class=" song-details">
+              <p style="font-size: smaller; font-weight: bold;">Public Playlist</p>
+              <p style="font-size: xx-large; font-weight: 900; margin: 0;" >Happy Hits!</p>
+              <p style="font-size: smaller; font-weight: medium; color: rgba(255, 255, 255, 0.753);">Hits to boost your mood and fill you with happiness!</p>
+              <div class="flex-row">
+                <img src="icons/logo.svg" style="width: 20px; height: 20px;">
+                <span style="font-size: smaller; font-weight: bold; color: rgba(255, 255, 255, 0.753);">Spotify . 63,402,560saves . 100songs , about 5hr</span>
+              </div>
+            </div>
+            
+          </div>
+          <img src="icons/back.svg" class="back">
+          <ul class="song-list flex-column"> 
+          </ul>
+          
+        
+        </div>
+        <div class="playbar flex-column">
+          <div class="flex-row playbar-top">
+          <div class="songinfo"></div>
+          <div id="play-buttons flex-row">
+          <img id="previous" src="icons/previous.svg" width="30px" height="30px">
+          <img id="play-icon"src="icons/play-white.svg" width="30px" height="30px">
+          <img id="next"src="icons/next.svg" width="30px" height="30px">
+          </div>
+          <div class="songtime">
+            
+          </div>
+          <div class="volume">
+              <img src="icons/volume.svg" width="20px">
+          </div>
+          
+          </div>
+          <div id="seekbar">
+            <div id="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
